@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/projeto/style.css">
+    <title>Desafio Html/Css</title>
+</head>
+<body>
+    <header class="cabeca">
+        <h1 class="titulo-pricinpal">DESAFIO INFINITY</h1>
+        <nav>
+            <ul class="lista">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#cadastros">Cadastros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container" id="sobre">
+            <h2 class="subtitulo">Sobre mim</h2>
+            <p class="texto-sobre">Somenthig Somenthig Somenthig Somenthig Somenthig Somenthig Somenthig Somenthig Somenthig Somenthig Somenthig </p>
+            <img src="https://media.istockphoto.com/id/1356364287/pt/foto/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-backlit-keyboard-screens-show.jpg?s=612x612&w=0&k=20&c=febtBieTOAo1mrPf4Bp8hJ78R-2pUnivYfvIaZhVzkc=" class="img-prog"  alt="Imagem de um Programador">
+        </section>
+        <section class="container" id="contato">
+            <h2 class="subtitulo">Contato</h2>
+            <form action="" id="form" class="formulario">
+
+                <div class="form-div">
+                    <label for="nome" class="form-lb">Nome: </label>
+                    <input type="text" id="nome" name="nome">
+                    <br>
+                    <label for="email" class="form-lb">Email: </label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-div">
+                    <label for="genero" class="form-lb">Sexo: </label>
+                    <br>
+                    <input type="radio" id="masc" name="genero" value="Masculino">
+                    <label for="masc">Masculino</label>
+                    <br>
+                    <input type="radio" id="femin" name="genero" value="Feminino">
+                    <label for="Feminino">Feminino</label>
+
+                </div>
+
+
+                <div class="form-div">
+
+                    <label for="linguagens" class="form-lb">Linguagens: </label>
+                    <br>
+                    <input type="checkbox" id="linguagem-1" name="linguagem-1" value="HTML">
+                    <label for="linguagem-1">HTML</label>
+                    <br>
+                    <input type="checkbox" id="linguagem-2" name="linguagem-2" value="CSS">
+                    <label for="linguagem-2">CSS</label>
+                    <br>
+                    <input type="checkbox" id="linguagem-3" name="linguagem-3" value="Javascript">
+                    <label for="linguagem-3">Javascript</label>
+                    <br>
+                    <input type="checkbox" id="linguagem-4" name="linguagem-4" value="Python">
+                    <label for="linguagem-4">Python</label>
+                </div>
+
+                <!-- <input type="submit" value="ENVIAR"> -->
+                <!-- <button><input type="submit" value="ENVIAR"></button> -->
+                <button type="submit" form="form" value="submit" class="btn-form">ENVIAR</button>
+
+            </form>
+        </section>
+        <section class="container" id="cadastros">
+            <h2 class="subtitulo">Dados Cadastros</h2>
+            <table class="tabela">
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>carlosfranch29@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Aragorn</td>
+                    <td>aragorn@reinodegondor.com</td>
+                </tr>
+
+
+            </table>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footer-texto">@ 2024 Desafio Infinity. Todos os direitos reservados.</p>
+            <p>
+                "Desenvolvido por "
+                <span class="footer-name">Carlos Franch</span>
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
